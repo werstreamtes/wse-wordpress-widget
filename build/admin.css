@@ -1,0 +1,50 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/admin.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+body.settings_page_werstreamtes {
+  background: #DFAD05;
+}
+body.settings_page_werstreamtes .components-snackbar-list {
+  right: 20px;
+  top: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings {
+  max-width: 20%;
+  margin: 15% auto 0;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings button {
+  border: unset;
+  background: #A03C21;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings input {
+  border-radius: 5px;
+  font-size: 16px;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings .wse-plugin__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings .wse-plugin__title img {
+  height: 70px;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings label {
+  text-transform: unset;
+  font-size: 15px;
+  display: block;
+  color: #302B25;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings small {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings small a {
+  color: #A03C21;
+}
+body.settings_page_werstreamtes #widget-werstreamtes-settings p {
+  color: #000;
+}
+
+/*# sourceMappingURL=admin.css.map*/

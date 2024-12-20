@@ -1,0 +1,92 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.wp-block-widget-werstreamtes {
+  border-radius: 4px;
+  padding: 10px;
+}
+.wp-block-widget-werstreamtes.is-selected {
+  box-shadow: 0 0 3px #ddd;
+}
+.wp-block-widget-werstreamtes iframe {
+  width: 100%;
+  pointer-events: none;
+  min-height: 400px;
+}
+.wp-block-widget-werstreamtes:focus:after {
+  all: unset !important;
+}
+.wp-block-widget-werstreamtes small {
+  font-size: 11px;
+}
+.wp-block-widget-werstreamtes small span {
+  background: #302B25;
+  color: #fff;
+  word-break: break-all;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.wp-block-widget-werstreamtes small span:first-child {
+  margin-left: 5px;
+}
+.wp-block-widget-werstreamtes small span:not(:last-child) {
+  margin-right: 5px;
+}
+.wp-block-widget-werstreamtes .components-tab-panel__tabs {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.wp-block-widget-werstreamtes .components-tab-panel__tabs .components-tab-panel__tabs-item {
+  border: 1px solid #000;
+  border-radius: 3px;
+  height: 30px;
+}
+.wp-block-widget-werstreamtes .components-tab-panel__tabs .components-tab-panel__tabs-item.active-tab {
+  background: #302B25;
+  color: #fff;
+}
+.wp-block-widget-werstreamtes .components-tab-panel__tabs .components-tab-panel__tabs-item:not(:last-child) {
+  margin-right: 10px;
+}
+.wp-block-widget-werstreamtes a {
+  color: #dfad06;
+}
+.wp-block-widget-werstreamtes p {
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+  color: #000;
+}
+
+.wse-content-item img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 2px;
+  height: 45px;
+}
+.wse-content-item div {
+  float: left;
+}
+.wse-content-item div strong {
+  margin-bottom: 3px;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+.wse-content-item div small {
+  display: block;
+  color: #3b3b3b;
+}
+.wse-content-item div:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.components-autocomplete__popover button {
+  display: block !important;
+}
+.components-autocomplete__popover .components-popover__content {
+  min-width: 350px;
+}
+
+/*# sourceMappingURL=index.css.map*/
