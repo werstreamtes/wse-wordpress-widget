@@ -1,0 +1,15 @@
+{
+  "name": "werstreamtes/wordpress-widget",
+  "description" : "Mit dem Widget kannst du Verfügbarkeitsinformationen zu Filmen, Serien und Listen direkt auf deiner Webseite anzeigen.",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "keywords": ["pimcore", "werstreamtes", "widget"],
+  "authors": [
+    {
+      "name": "WerStreamt.es",
+      "email": "info@werstreamt.es",
+      "homepage": "https://www.werstreamt.es/",
+      "role": "Developer"
+    }
+  ]
+}
