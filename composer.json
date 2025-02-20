@@ -3,7 +3,7 @@
   "description" : "Mit dem Widget kannst du Verfügbarkeitsinformationen zu Filmen, Serien und Listen direkt auf deiner Webseite anzeigen.",
   "type": "wordpress-plugin",
   "license": "GPL-3.0-or-later",
-  "keywords": ["pimcore", "werstreamtes", "widget"],
+  "keywords": ["wordpress", "werstreamtes", "widget"],
   "authors": [
     {
       "name": "WerStreamt.es",
