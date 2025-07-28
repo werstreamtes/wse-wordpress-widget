@@ -12,7 +12,7 @@ define("WERSTREAMTES_URL", plugins_url("/", __FILE__));
  * Short Description: Zeige Verfügbarkeitsinformationen zu Filmen, Serien und Listen auf deiner Webseite an.
  * Requires at least: 6.1
  * Requires PHP: 7.0
- * Version: 0.1.1
+ * Version: 0.1.3
  * Tested up to: 6.6
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -39,6 +39,10 @@ function werstreamtes_widget_block_init(): void
  */
 function werstreamtes_widget_enqueue_script()
 {
+
+    if (!has_block("widget/werstreamtes")) {
+        return;
+    }
 
     wp_enqueue_script("wse-widget-list-script", "https://www.werstreamt.es/_resources/themes/wse/js/list-widget.js", [], "1.0.0", ["in_footer" => true]);
 
@@ -174,7 +178,7 @@ function werstreamtes_widget_providersEndpoint(): void
             "methods" => "GET", // The HTTP method for the route
             "callback" => function () { // The function to call when this endpoint is accessed
                 header("Content-Type: application/json; charset=utf-8");
-                return json_decode(wp_remote_get("https://www.werstreamt.es/widgets/filter/providers/")["body"], true);
+                return json_decode(wp_remote_get("https://www.werstreamt.es/widgets/filter/providers/?v=2")["body"], true);
             },
             "permission_callback" => "__return_true" // A permission callback that allows anyone to access this endpoint
         ],

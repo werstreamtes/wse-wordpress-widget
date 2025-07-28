@@ -6,7 +6,7 @@
 **License:** GPLv2 or later   
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 **Tested up to:** 6.6.2
-**Stable tag:** 0.1.1
+**Stable tag:** 0.1.3
 
 Mit dem Widget kannst du Verfügbarkeitsinformationen auf deiner Webseite anzeigen.
 
